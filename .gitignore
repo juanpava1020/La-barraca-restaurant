@@ -1,0 +1,11 @@
+#Personalization
+/public/**/*.jpg
+/public/**/*.jpeg
+/public/**/*.png
+/public/**/*.git
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+
+node_modules

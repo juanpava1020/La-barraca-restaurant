@@ -1,0 +1,38 @@
+{
+  "name": "LA-BARRACA-RESTAURANT",
+  "description": "This is a clone of https://labarraca.nl/, we use this page for practice git commands and html,css and js",
+  "keywords": [
+    "Restaurant",
+    "La barraca"
+  ],
+  "authors": [
+    {
+      "name": "Dayron Yeins",
+      "email": "",
+      "url": ""
+    },
+    {
+      "name": "Bayron",
+      "email": "",
+      "url": ""
+    },
+    {
+      "name": "Sebastian Moreno Echeverri",
+      "email": "sebastianmorenoecheverri@gmail.com",
+      "url": "https://github.com/Cvaz007"
+    },
+    {
+      "name": "Esteban",
+      "email": "",
+      "url": ""
+    },
+    {
+      "name": "Santiago",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
