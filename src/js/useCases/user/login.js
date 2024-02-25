@@ -14,8 +14,9 @@ const checkUser = async (user) => {
   console.log(dataUser);
   if (!dataUser[0]) return alert("Este email no existe");
   if (dataUser[0].password === user.password) {
-    window.location.href = "reservation.html";
-    // localStorage.setItem("isAuthorized", "true");
+    window.location.href = "/src/pages/booking/index.html";
+    localStorage.setItem("isAuthorized", "true");
+    //Esta linea va ser util cuando se haga la reserva, para poder tomarle el id al usuario
     // localStorage.setItem("userCache", JSON.stringify(dataUser[0]));
   } else {
     alert("Credenciales incorrectas!");
