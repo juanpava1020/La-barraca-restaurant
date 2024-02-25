@@ -5,6 +5,12 @@
       "name": "Sebastian",
       "email": "sebas@gmail.com",
       "password": "sebas123"
+    },
+    {
+      "id": "6a95",
+      "name": "a",
+      "email": "a@h.c",
+      "password": "a"
     }
   ],
   "reservations": [
