@@ -1,8 +1,8 @@
 #Personalization
-/public/**/*.jpg
-/public/**/*.jpeg
-/public/**/*.png
-/public/**/*.git
+# /public/**/*.jpg
+# /public/**/*.jpeg
+# /public/**/*.png
+# /public/**/*.git
 
 # Editor directories and files
 .vscode/*
