@@ -16,8 +16,7 @@ const checkUser = async (user) => {
   if (dataUser[0].password === user.password) {
     window.location.href = "/src/pages/booking/index.html";
     localStorage.setItem("isAuthorized", "true");
-    //Esta linea va ser util cuando se haga la reserva, para poder tomarle el id al usuario
-    // localStorage.setItem("userCache", JSON.stringify(dataUser[0]));
+    localStorage.setItem("userCache", JSON.stringify(dataUser[0]));
   } else {
     alert("Credenciales incorrectas!");
   }

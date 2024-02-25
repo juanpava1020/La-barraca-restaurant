@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="../../js/hooks/bootstrapSession.js"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>hola</h1>
-  </body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reservation Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="../../js/hooks/bootstrapSession.js"></script>
+    </head>
+    <body>
+        
+        <section class = "banner">
+            <h2>Agenda tu mesa ahora</h2>
+            <div class = "card-container">
+                <div class = "card-img">
+                    <!-- image here -->
+                </div>
+
+                <div class = "card-content">
+                    <h3>Reservaciones</h3>
+                    <form id="myForm">
+                        <div class = "form-row">
+                            <select name = "days">
+                                <option value = "day-select">Día</option>
+                                <option value = "domingo">Domingo</option>
+                                <option value = "lunes">Lunes</option>
+                                <option value = "martes">Martes</option>
+                                <option value = "miercoles">Miercoles</option>
+                                <option value = "jueves">Jueves</option>
+                                <option value = "viernes">Viernes</option>
+                                <option value = "sabado">Sabado</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select">Selecciona la hora</option>
+                                <option value = "10">10: 00</option>
+                                <option value = "10">12: 00</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">16: 00</option>
+                                <option value = "10">18: 00</option>
+                                <option value = "10">20: 00</option>
+                                <option value = "10">22: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input name="number" type = "text" placeholder="Número completo">
+                        </div>
+
+                        <div class = "form-row">
+                            <input name="people" type = "number" placeholder=" Personas (#)" min = "1">
+                            <input type = "submit" value = "Agendar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <script type="module" src="../../js/useCases/booking/booking.js"></script>
+    </body>
 </html>
