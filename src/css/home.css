@@ -41,3 +41,67 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.info-page {
+    position: relative;
+    padding: 60px 20px;
+    height: 100vh;
+}
+
+.sub-title {
+    font-family: Fontfabric nexa rust sans shadow,sans-serif;
+    font-size: 16px;
+}
+
+h1, p, .parrafo{
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo {
+    display: flex;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.cards {
+    margin: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.image-card{
+    display: flex;
+    justify-content: center;
+}
+
+.image-card img {
+    padding-top: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.info-card {
+    padding-top: 15px;
+    font-family: "Fontfabric nexa rust sans 01,sans-serif";
+    font-size: 20px;
+}
+
+.star-calification {
+    padding: 0;
+}
+
+.star-calification img {
+    width: 100px;
+    padding: 0 0 0 10px;
+}
